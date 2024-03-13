@@ -3,12 +3,14 @@
       "title": "I, Robot",
       "author": "Isaac Asimov",
       "total_pages": 256,
+      "total_locations": 3337,
+      "is_ebook": true,
       "word_count_aprox": 64000,
+      "location_to_page": 13.035,
       "table_contents": [
         {
           "title": "Robbie",
-          "order": 1,
-          "is_ebook": true,
+          "order": 1,          
           "ebook": {
             "location_start": 96,
             "location_end": 450
@@ -21,7 +23,6 @@
         {
           "title": "Runaround",
           "order": 2,
-          "is_ebook": true,
           "ebook": {
             "location_start": 455,
             "location_end": 770
@@ -34,7 +35,6 @@
         {
           "title": "Reason",
           "order": 3,
-          "is_ebook": true,
           "ebook": {
             "location_start": 775,
             "location_end": 1086
@@ -47,7 +47,6 @@
         {
           "title": "Catch That Rabbit",
           "order": 4,
-          "is_ebook": true,
           "ebook": {
             "location_start": 1096,
             "location_end": 1431
@@ -60,7 +59,6 @@
         {
           "title": "Liar!",
           "order": 5,
-          "is_ebook": true,
           "ebook": {
             "location_start": 1446,
             "location_end": 1746
@@ -73,7 +71,6 @@
         {
           "title": "Little Lost Robot",
           "order": 6,
-          "is_ebook": true,
           "ebook": {
             "location_start": 1755,
             "location_end": 2213
@@ -86,7 +83,6 @@
         {
           "title": "Escape!",
           "order": 7,
-          "is_ebook": true,
           "ebook": {
             "location_start": 2223,
             "location_end": 2602
@@ -99,7 +95,6 @@
         {
           "title": "Evidence",
           "order": 8,
-          "is_ebook": true,
           "ebook": {
             "location_start": 2614,
             "location_end": 3028
@@ -112,7 +107,6 @@
         {
           "title": "The Evitable Conflict",
           "order": 9,
-          "is_ebook": true,
           "ebook": {
             "location_start": 3034,
             "location_end": 3433
