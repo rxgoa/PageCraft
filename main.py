@@ -23,5 +23,7 @@ class Book:
 
 
 book = Book()
-estimate_reading_time = book.estimate_reading_time(64_000, 266)
-print(estimate_reading_time.total_hours)
+estimate_reading_time = book.estimate_reading_time(64_000, 250)
+print(
+    estimate_reading_time.total_hours
+)  # 4 hours and 16 minutes for 250 words per minute.
