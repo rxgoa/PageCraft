@@ -1,0 +1,127 @@
+{
+  "eISBN:978-0-553-90033-0": {
+      "title": "I, Robot",
+      "author": "Isaac Asimov",
+      "total_pages": 256,
+      "word_count_aprox": 64000,
+      "table_contents": [
+        {
+          "title": "Robbie",
+          "order": 1,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 96,
+            "location_end": 450
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Runaround",
+          "order": 2,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 455,
+            "location_end": 770
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Reason",
+          "order": 3,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 775,
+            "location_end": 1086
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Catch That Rabbit",
+          "order": 4,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 1096,
+            "location_end": 1431
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Liar!",
+          "order": 5,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 1446,
+            "location_end": 1746
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Little Lost Robot",
+          "order": 6,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 1755,
+            "location_end": 2213
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Escape!",
+          "order": 7,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 2223,
+            "location_end": 2602
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "Evidence",
+          "order": 8,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 2614,
+            "location_end": 3028
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        },
+        {
+          "title": "The Evitable Conflict",
+          "order": 9,
+          "is_ebook": true,
+          "ebook": {
+            "location_start": 3034,
+            "location_end": 3433
+          },
+          "printed": {
+            "page_start": 0,
+            "page_end": 0
+          }
+        }
+      ]
+  }
+}
