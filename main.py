@@ -6,7 +6,7 @@ class Book:
     def __init__(self):
         self.books = self.read_books_file()
         self.location_to_page = 13.035  # basically every 13.035 locations is considered a page compared to a printed book. Locations are used by Kindle to determine the location of the reader.
-        self.words_per_page_aprox = 250
+        self.words_per_page_aprox = 275  # this is a estimate for who many words there is a printed book. the number seems to be between 250 and 300.
 
     def __getitem__(self, key):
         return self.books[key]
@@ -14,7 +14,6 @@ class Book:
     def estimate_reading_time(self, isbn, words_minute):
         book_info = self.get_book_info(isbn)
         self.total_minutes = book_info["word_count_aprox"] / words_minute
-
         prepare_time = str(format(self.total_minutes / 60, ".2f")).split(
             "."
         )  # split float number
@@ -79,7 +78,7 @@ class Book:
 
 
 book = Book()
-estimate_reading_time = book.estimate_reading_time("eISBN:978-0-553-90033-0", 250)
+estimate_reading_time = book.estimate_reading_time("eISBN:9781466853447", 250)
 hours = str(estimate_reading_time.total_hours).split(".")[0]
 minutes = str(estimate_reading_time.total_hours).split(".")[1]
 
@@ -89,5 +88,5 @@ print(
 
 # print(book.get_book_info("eISBN:978-0-553-90033-0"))  # return Object of a given ISBN
 
-optimized_reading = book.optimize_time_read("eISBN:978-0-553-90033-0", 770, 50, 275)
+optimized_reading = book.optimize_time_read("eISBN:9781466853447", 89, 50, 275)
 print(optimized_reading)
