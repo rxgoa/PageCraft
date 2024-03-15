@@ -78,7 +78,7 @@ class Book:
 
 
 book = Book()
-estimate_reading_time = book.estimate_reading_time("eISBN:9781466853447", 250)
+estimate_reading_time = book.estimate_reading_time("eISBN:9781466853447", 200)
 hours = str(estimate_reading_time.total_hours).split(".")[0]
 minutes = str(estimate_reading_time.total_hours).split(".")[1]
 
@@ -88,5 +88,5 @@ print(
 
 # print(book.get_book_info("eISBN:978-0-553-90033-0"))  # return Object of a given ISBN
 
-optimized_reading = book.optimize_time_read("eISBN:9781466853447", 89, 50, 275)
+optimized_reading = book.optimize_time_read("eISBN:9781466853447", 3259, 70, 200)
 print(optimized_reading)
