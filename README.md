@@ -12,10 +12,10 @@ The "PageCraft - MinMaxing your reading" project is an web application designed 
 
 
 ### Books Dataset
-Well, this this code needs the table of contents for each book, so it can now where a chapter starts and ends. Without this information, we cannot calculate the best chapter point to stop reading (feature). So, for now at least, the book dataset is being done by me and I'm storing the information in `data/books.json`. Since this project is just for me to use I don't mind typing the books I'm reading (it's table of contents). Maybe this one day will help somebody.
+Well, this code needs the table of contents for each book, so it can know where a chapter starts and ends. Without this information, we cannot calculate the best chapter point to stop reading (feature). So, for now at least, the book dataset is being done by me and I'm storing the information in `data/books.json`. Since this project is just for me to use I don't mind typing the books I'm reading (it's table of contents). Maybe this one day will help somebody.
 
 ## Running this Application
-For you to run this api you will need `python3` installed. After you need to run `pip install -r requirements.txt`. This will install `fastapi` and `typing` packages. You could also create a `virtual envirment` with Python `python3 -m venv env` and then `source env/bin/activate`. For running our web server, we're going to need `Uvicorn` for this. Just install using `pip install "uvicorn[standart]".
+For you to run this api you will need `python3` installed. After you need to run `pip install -r requirements.txt`. This will install `fastapi` and `typing` packages. You could also create a `virtual envirment` with Python `python3 -m venv env` and then `source env/bin/activate`. For running our web server, we're going to need `Uvicorn` for this. Just install using `pip install "uvicorn[standard]".
 
 Then, you can run `uvicorn main:app --reload`.
 
@@ -30,3 +30,5 @@ For now, the API has only 2 endpoints:
     - `starting_point`: This is the Page number or Location point you're stating your reading Session. The `location point` is used by Kindle to track your progress.
     - `time_to_read`: How much time do you have to read. Time is in minutes.
     - `words_minute`: How many words can you read in a minute. For this info, you could try this website http://www.freereadingtest.com/
+
+- `[GET] http://localhost:8000/v1/api/books` Returns all the books available in `data/books.json`. Or, if you want, you can query by `isbn`. Like `http://localhost:8000/v1/api/books?isbn=eISBN:9781466853447`

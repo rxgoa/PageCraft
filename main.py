@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Optional
 from fastapi import FastAPI
 import json
 import math
@@ -79,8 +79,12 @@ class Book:
         return text_response
 
     def get_book_info(self, isbn):
-        book_info = self.books[isbn]
-        return book_info
+        if not isbn:
+            book_info = self.books
+            return book_info
+        else:
+            book_info = self.books[isbn]
+            return book_info
 
     def read_books_file(self):
         with open("data/books.json") as file:
@@ -93,6 +97,13 @@ book = Book()
 #
 # Fast API Methods
 #
+
+
+# Get all books available in data/books.json
+# We can also filter by ISBN. /v1/api/books?isbn={{BOOK_ISBN}}
+@app.get("/v1/api/books")
+def get_books(isbn: Optional[str] = None):
+    return book.get_book_info(isbn)
 
 
 # Get Reading estimation from a Book
