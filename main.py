@@ -1,5 +1,9 @@
+from typing import Union
+from fastapi import FastAPI
 import json
 import math
+
+app = FastAPI()
 
 
 class Book:
@@ -11,7 +15,7 @@ class Book:
     def __getitem__(self, key):
         return self.books[key]
 
-    def estimate_reading_time(self, isbn, words_minute):
+    def estimate_reading_time(self, isbn: str, words_minute: int):
         book_info = self.get_book_info(isbn)
         self.total_minutes = book_info["word_count_aprox"] / words_minute
         prepare_time = str(format(self.total_minutes / 60, ".2f")).split(
@@ -26,7 +30,14 @@ class Book:
             prepare_time[0] + "." + (str(float_number_minutes).split(".")[0])
         )
 
-        return self
+        hours = str(self.total_hours).split(".")[0]
+        minutes = str(self.total_hours).split(".")[1]
+        response_text = (
+            "Estimated time for reading the book is %s hours and %s minutes."
+            % (hours, minutes)
+        )
+
+        return {"message": response_text, "status": 200}
 
     def optimize_time_read(self, isbn, starting_point, time_to_read, words_minute):
         book_info = self.books[isbn]
@@ -78,15 +89,25 @@ class Book:
 
 
 book = Book()
-estimate_reading_time = book.estimate_reading_time("eISBN:9781466853447", 200)
-hours = str(estimate_reading_time.total_hours).split(".")[0]
-minutes = str(estimate_reading_time.total_hours).split(".")[1]
 
-print(
-    "Estimated time for reading the book is %s hours and %s minutes." % (hours, minutes)
-)  # 4 hours and 16 minutes for 250 words per minute.
+#
+# Fast API Methods
+#
 
-# print(book.get_book_info("eISBN:978-0-553-90033-0"))  # return Object of a given ISBN
 
-optimized_reading = book.optimize_time_read("eISBN:9781466853447", 3259, 70, 200)
-print(optimized_reading)
+# Get Reading estimation from a Book
+@app.get("/v1/api/books/estimation-reading")
+def estimate_reading_time_wrapper(isbn: str, words_minute: int):
+    return book.estimate_reading_time(isbn, words_minute)
+
+
+# Get the most optimize place/chapter to stop reading given a time period.
+@app.get("/v1/api/books/optimal-reading")
+def optimize_time_read_wrapper(
+    isbn: str, starting_point: int, time_to_read: int, words_minute: int
+):
+    optimize_time_formatted = book.optimize_time_read(
+        isbn, starting_point, time_to_read, words_minute
+    )
+
+    return {"message": optimize_time_formatted, "status": 200}
