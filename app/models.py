@@ -23,6 +23,7 @@ class BookModel(BaseModel):
     title: str
     author: str
     isbn: str
+    book_cover_image: str
     total_pages: int
     total_locations: int
     is_ebook: bool

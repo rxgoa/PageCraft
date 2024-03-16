@@ -99,7 +99,7 @@ class Book:
             book_info = self.books
             return book_info
         else:
-            book_info = self.books[isbn]
+            book_info = self.books[isbn.lower()]
             return book_info
 
     def read_books_file(self):

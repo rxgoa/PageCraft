@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>.::PageCraft::.🧙</title>
+	<link rel="stylesheet" href="/static/styles.css">
+	<link rel="icon" href="/static/pagecraft.png">
+</head>
+
+<body>
+	<div class="container">
+		<h1>pagecraft v.1</h1>
+		<div class="input-wrapper">
+			<div class="floating-label-group">
+				<input type="text" class="form-input" id="isbn" placeholder="isbn" required />
+				<label for="isbn" class="form-label">ISBN</label>
+				<button class="input-button" hx-get="/v1/api/books?isbn=eISBN:9781466853447"
+					hx-target="#box" hx-swap="innerhtml">⬇️</button>
+
+			</div>
+		</div>
+		<div id="box" class="box">
+
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/htmx.org@1.9.11"
+		integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

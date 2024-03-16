@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'IBM';
+    /* Name you'll use to refer to this font */
+    src: url('fonts/WebPlus_IBM_CGA-2y.woff') format('woff'),
+        url('fonts/WebPlus_IBM_CGAthin-2y.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'IBM', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #15222E;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FAF8F6;
+}
+
+.input-wrapper {
+    width: 40vw;
+    max-width: 100%;
+    position: relative;
+}
+
+.input-button {
+    font-family: 'IBM', sans-serif;
+    background: #C0C0C0;
+    color: black;
+    padding: 5px 10px;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 12px;
+    height: 40px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 24px;
+    margin-right: 6px;
+}
+
+.input-button:focus {
+    outline: 1px dotted black;
+}
+
+.container {
+    font-family: 'IBM', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-input {
+    width: 40vw;
+    font-family: 'IBM', sans-serif;
+    height: 50px;
+    border: 3px solid darkgrey;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: black;
+    color: #FAF8F6;
+    margin-left: -5px;
+}
+
+.box {
+    width: 40vw;
+    height: 500px;
+    border: 3px solid darkgrey;
+    border-radius: 2px;
+    color: #FAF8F6;
+    overflow-y: auto;
+
+}
+
+.floating-label-group {
+    position: relative;
+    padding-top: 15px;
+
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-input::placeholder {
+    color: transparent;
+}
+
+.form-label {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    color: darkgrey;
+    pointer-events: none;
+    transition: transform 0.2s ease-out;
+    background-color: #15222E;
+    padding: 0 5px;
+    transform-origin: left top;
+}

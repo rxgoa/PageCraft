@@ -1,8 +1,9 @@
 {
-    "eISBN:978-0-553-90033-0": {
+    "eisbn:978-0-553-90033-0": {
         "title": "I, Robot",
         "author": "Isaac Asimov",
         "isbn": "eISBN:978-0-553-90033-0",
+        "book_cover_image": "https://m.media-amazon.com/images/I/611vANh0NbL._AC_UF1000,1000_QL80_.jpg",
         "total_pages": 256,
         "total_locations": 3337,
         "is_ebook": true,
@@ -119,10 +120,11 @@
             }
         ]
     },
-    "eISBN:9781466853447": {
+    "eisbn:9781466853447": {
         "title": "The Three-Body Problem (Remembrance of Earth's Past Book 1)",
         "author": "Liu Cixin",
         "isbn": "eISBN:9781466853447",
+        "book_cover_image": "https://m.media-amazon.com/images/I/91DUejN+hAL._AC_UF1000,1000_QL80_.jpg",
         "total_pages": 400,
         "total_locations": 5559,
         "is_ebook": true,

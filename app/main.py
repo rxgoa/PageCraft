@@ -1,11 +1,39 @@
+import os
 from typing import Optional
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse, Response
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from fastapi.middleware.cors import CORSMiddleware
 from app.models import BookModel
 from app.services import Book
 
+# FastAPI config
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+static_dir = os.path.join(BASE_DIR, "static")
+
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
+templates = Jinja2Templates(directory="app/templates")
+
 book = Book()
+
+
+@app.get("/book", response_class=HTMLResponse)
+async def get_book(request: Request):
+    context = {"request": request}
+    return templates.TemplateResponse("book.html", context)
 
 
 #
