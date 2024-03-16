@@ -25,6 +25,35 @@ body {
     position: relative;
 }
 
+.menu-bar {
+    background-color: #15222E;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    float: left;
+}
+
+.menu-items li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu-items li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .input-button {
     font-family: 'IBM', sans-serif;
     background: #C0C0C0;
