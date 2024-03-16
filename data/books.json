@@ -1,588 +1,590 @@
 {
-  "eISBN:978-0-553-90033-0": {
-    "title": "I, Robot",
-    "author": "Isaac Asimov",
-    "total_pages": 256,
-    "total_locations": 3337,
-    "is_ebook": true,
-    "word_count_aprox": 70400,
-    "location_to_page": 13.035,
-    "table_contents": [
-      {
-        "title": "Robbie",
-        "order": 1,
-        "ebook": {
-          "location_start": 96,
-          "location_end": 450
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Runaround",
-        "order": 2,
-        "ebook": {
-          "location_start": 455,
-          "location_end": 770
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Reason",
-        "order": 3,
-        "ebook": {
-          "location_start": 775,
-          "location_end": 1086
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Catch That Rabbit",
-        "order": 4,
-        "ebook": {
-          "location_start": 1096,
-          "location_end": 1431
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Liar!",
-        "order": 5,
-        "ebook": {
-          "location_start": 1446,
-          "location_end": 1746
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Little Lost Robot",
-        "order": 6,
-        "ebook": {
-          "location_start": 1755,
-          "location_end": 2213
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Escape!",
-        "order": 7,
-        "ebook": {
-          "location_start": 2223,
-          "location_end": 2602
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "Evidence",
-        "order": 8,
-        "ebook": {
-          "location_start": 2614,
-          "location_end": 3028
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "The Evitable Conflict",
-        "order": 9,
-        "ebook": {
-          "location_start": 3034,
-          "location_end": 3433
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      }
-    ]
-  },
-  "eISBN:9781466853447": {
-    "title": "The Three-Body Problem (Remembrance of Earth's Past Book 1)",
-    "author": "Liu Cixin",
-    "total_pages": 400,
-    "total_locations": 5559,
-    "is_ebook": true,
-    "word_count_aprox": 110000,
-    "location_to_page": 13.035,
-    "table_contents": [
-      {
-        "title": "[PART I] Silent Spring",
-        "order": 1,
-        "ebook": {
-          "location_start": 89,
-          "location_end": 89
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART I - Silent Spring] The Madness Years",
-        "order": 2,
-        "ebook": {
-          "location_start": 93,
-          "location_end": 286
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART I - Silent Spring] Silent Spring",
-        "order": 3,
-        "ebook": {
-          "location_start": 293,
-          "location_end": 551
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART I - Silent Spring] Red Coast I",
-        "order": 4,
-        "ebook": {
-          "location_start": 558,
-          "location_end": 679
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II] Three Body",
-        "order": 5,
-        "ebook": {
-          "location_start": 683,
-          "location_end": 683
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] The Frontiers of Science",
-        "order": 6,
-        "ebook": {
-          "location_start": 686,
-          "location_end": 913
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Game of Pool",
-        "order": 7,
-        "ebook": {
-          "location_start": 918,
-          "location_end": 984
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] The Shooter and the Farmer",
-        "order": 8,
-        "ebook": {
-          "location_start": 996,
-          "location_end": 1296
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: King Wen of Zhou and the Long Night",
-        "order": 9,
-        "ebook": {
-          "location_start": 1304,
-          "location_end": 1554
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Ye Wenjie",
-        "order": 10,
-        "ebook": {
-          "location_start": 1558,
-          "location_end": 1650
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] The Universe Flickers",
-        "order": 11,
-        "ebook": {
-          "location_start": 1660,
-          "location_end": 1821
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Da Shi",
-        "order": 12,
-        "ebook": {
-          "location_start": 1828,
-          "location_end": 1937
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: Mozi and Fiery Flames",
-        "order": 13,
-        "ebook": {
-          "location_start": 1944,
-          "location_end": 2120
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Red Coast II",
-        "order": 14,
-        "ebook": {
-          "location_start": 2129,
-          "location_end": 2280
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Red Coast III",
-        "order": 15,
-        "ebook": {
-          "location_start": 2293,
-          "location_end": 2406
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Red Coast IV",
-        "order": 16,
-        "ebook": {
-          "location_start": 2416,
-          "location_end": 2482
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: Copernicus, Universal Football, and the Tri-Solar Movement",
-        "order": 17,
-        "ebook": {
-          "location_start": 2495,
-          "location_end": 2605
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] The Three-Body Problem",
-        "order": 18,
-        "ebook": {
-          "location_start": 2619,
-          "location_end": 2893
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: Newton, Von Neumann, the First Emperor, and Tri-Solar Syzygy",
-        "order": 19,
-        "ebook": {
-          "location_start": 2897,
-          "location_end": 3162 
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Meet-up",
-        "order": 20,
-        "ebook": {
-          "location_start": 3166,
-          "location_end": 3247
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: Einstein, The Pendulum Monument, and the Great Rip",
-        "order": 21,
-        "ebook": {
-          "location_start": 3259,
-          "location_end": 3411
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART II - Three Body] Three Body: Expedition",
-        "order": 22,
-        "ebook": {
-          "location_start": 3426,
-          "location_end": 3455
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III] Sunset For Humanity",
-        "order": 23,
-        "ebook": {
-          "location_start": 3465,
-          "location_end": 3465
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Rebels of Earth",
-        "order": 24,
-        "ebook": {
-          "location_start": 3468,
-          "location_end": 3567
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Red Coast V",
-        "order": 25,
-        "ebook": {
-          "location_start": 3581,
-          "location_end": 3748
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Red Coast VI",
-        "order": 26,
-        "ebook": {
-          "location_start": 3761,
-          "location_end": 3861
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Rebellion",
-        "order": 27,
-        "ebook": {
-          "location_start": 3875,
-          "location_end": 3940
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] The Deaths of Lei Zhicheng and Yang Weining",
-        "order": 28,
-        "ebook": {
-          "location_start": 3954,
-          "location_end": 4033
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] No One Repents",
-        "order": 29,
-        "ebook": {
-          "location_start": 4038,
-          "location_end": 4248
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Evans",
-        "order": 30,
-        "ebook": {
-          "location_start": 4252,
-          "location_end": 4382
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] The Second Red Coast Base",
-        "order": 31,
-        "ebook": {
-          "location_start": 4395,
-          "location_end": 4416
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] The Earth-Trisolaris Movement",
-        "order": 32,
-        "ebook": {
-          "location_start": 4427,
-          "location_end": 4493
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Two Protons",
-        "order": 33,
-        "ebook": {
-          "location_start": 4502,
-          "location_end": 4611
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Operation Guzheng",
-        "order": 34,
-        "ebook": {
-          "location_start": 4624,
-          "location_end": 4858
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Trisolaris: The Listener",
-        "order": 35,
-        "ebook": {
-          "location_start": 4872,
-          "location_end": 5004
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Trisolaris: Sophon",
-        "order": 36,
-        "ebook": {
-          "location_start": 5017,
-          "location_end": 5416
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] Bugs",
-        "order": 37,
-        "ebook": {
-          "location_start": 5423,
-          "location_end": 5467
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      },
-      {
-        "title": "[PART III - Sunset For Humanity] The Ruins",
-        "order": 38,
-        "ebook": {
-          "location_start": 5475,
-          "location_end": 5498
-        },
-        "printed": {
-          "page_start": 0,
-          "page_end": 0
-        }
-      }
-    ]
-  }
+    "eISBN:978-0-553-90033-0": {
+        "title": "I, Robot",
+        "author": "Isaac Asimov",
+        "isbn": "eISBN:978-0-553-90033-0",
+        "total_pages": 256,
+        "total_locations": 3337,
+        "is_ebook": true,
+        "word_count_aprox": 70400,
+        "location_to_page": 13.035,
+        "table_contents": [
+            {
+                "title": "Robbie",
+                "order": 1,
+                "ebook": {
+                    "location_start": 96,
+                    "location_end": 450
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Runaround",
+                "order": 2,
+                "ebook": {
+                    "location_start": 455,
+                    "location_end": 770
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Reason",
+                "order": 3,
+                "ebook": {
+                    "location_start": 775,
+                    "location_end": 1086
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Catch That Rabbit",
+                "order": 4,
+                "ebook": {
+                    "location_start": 1096,
+                    "location_end": 1431
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Liar!",
+                "order": 5,
+                "ebook": {
+                    "location_start": 1446,
+                    "location_end": 1746
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Little Lost Robot",
+                "order": 6,
+                "ebook": {
+                    "location_start": 1755,
+                    "location_end": 2213
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Escape!",
+                "order": 7,
+                "ebook": {
+                    "location_start": 2223,
+                    "location_end": 2602
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Evidence",
+                "order": 8,
+                "ebook": {
+                    "location_start": 2614,
+                    "location_end": 3028
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "The Evitable Conflict",
+                "order": 9,
+                "ebook": {
+                    "location_start": 3034,
+                    "location_end": 3433
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            }
+        ]
+    },
+    "eISBN:9781466853447": {
+        "title": "The Three-Body Problem (Remembrance of Earth's Past Book 1)",
+        "author": "Liu Cixin",
+        "isbn": "eISBN:9781466853447",
+        "total_pages": 400,
+        "total_locations": 5559,
+        "is_ebook": true,
+        "word_count_aprox": 110000,
+        "location_to_page": 13.035,
+        "table_contents": [
+            {
+                "title": "[PART I] Silent Spring",
+                "order": 1,
+                "ebook": {
+                    "location_start": 89,
+                    "location_end": 89
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART I - Silent Spring] The Madness Years",
+                "order": 2,
+                "ebook": {
+                    "location_start": 93,
+                    "location_end": 286
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART I - Silent Spring] Silent Spring",
+                "order": 3,
+                "ebook": {
+                    "location_start": 293,
+                    "location_end": 551
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART I - Silent Spring] Red Coast I",
+                "order": 4,
+                "ebook": {
+                    "location_start": 558,
+                    "location_end": 679
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II] Three Body",
+                "order": 5,
+                "ebook": {
+                    "location_start": 683,
+                    "location_end": 683
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] The Frontiers of Science",
+                "order": 6,
+                "ebook": {
+                    "location_start": 686,
+                    "location_end": 913
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Game of Pool",
+                "order": 7,
+                "ebook": {
+                    "location_start": 918,
+                    "location_end": 984
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] The Shooter and the Farmer",
+                "order": 8,
+                "ebook": {
+                    "location_start": 996,
+                    "location_end": 1296
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: King Wen of Zhou and the Long Night",
+                "order": 9,
+                "ebook": {
+                    "location_start": 1304,
+                    "location_end": 1554
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Ye Wenjie",
+                "order": 10,
+                "ebook": {
+                    "location_start": 1558,
+                    "location_end": 1650
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] The Universe Flickers",
+                "order": 11,
+                "ebook": {
+                    "location_start": 1660,
+                    "location_end": 1821
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Da Shi",
+                "order": 12,
+                "ebook": {
+                    "location_start": 1828,
+                    "location_end": 1937
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: Mozi and Fiery Flames",
+                "order": 13,
+                "ebook": {
+                    "location_start": 1944,
+                    "location_end": 2120
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Red Coast II",
+                "order": 14,
+                "ebook": {
+                    "location_start": 2129,
+                    "location_end": 2280
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Red Coast III",
+                "order": 15,
+                "ebook": {
+                    "location_start": 2293,
+                    "location_end": 2406
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Red Coast IV",
+                "order": 16,
+                "ebook": {
+                    "location_start": 2416,
+                    "location_end": 2482
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: Copernicus, Universal Football, and the Tri-Solar Movement",
+                "order": 17,
+                "ebook": {
+                    "location_start": 2495,
+                    "location_end": 2605
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] The Three-Body Problem",
+                "order": 18,
+                "ebook": {
+                    "location_start": 2619,
+                    "location_end": 2893
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: Newton, Von Neumann, the First Emperor, and Tri-Solar Syzygy",
+                "order": 19,
+                "ebook": {
+                    "location_start": 2897,
+                    "location_end": 3162
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Meet-up",
+                "order": 20,
+                "ebook": {
+                    "location_start": 3166,
+                    "location_end": 3247
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: Einstein, The Pendulum Monument, and the Great Rip",
+                "order": 21,
+                "ebook": {
+                    "location_start": 3259,
+                    "location_end": 3411
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART II - Three Body] Three Body: Expedition",
+                "order": 22,
+                "ebook": {
+                    "location_start": 3426,
+                    "location_end": 3455
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III] Sunset For Humanity",
+                "order": 23,
+                "ebook": {
+                    "location_start": 3465,
+                    "location_end": 3465
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Rebels of Earth",
+                "order": 24,
+                "ebook": {
+                    "location_start": 3468,
+                    "location_end": 3567
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Red Coast V",
+                "order": 25,
+                "ebook": {
+                    "location_start": 3581,
+                    "location_end": 3748
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Red Coast VI",
+                "order": 26,
+                "ebook": {
+                    "location_start": 3761,
+                    "location_end": 3861
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Rebellion",
+                "order": 27,
+                "ebook": {
+                    "location_start": 3875,
+                    "location_end": 3940
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] The Deaths of Lei Zhicheng and Yang Weining",
+                "order": 28,
+                "ebook": {
+                    "location_start": 3954,
+                    "location_end": 4033
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] No One Repents",
+                "order": 29,
+                "ebook": {
+                    "location_start": 4038,
+                    "location_end": 4248
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Evans",
+                "order": 30,
+                "ebook": {
+                    "location_start": 4252,
+                    "location_end": 4382
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] The Second Red Coast Base",
+                "order": 31,
+                "ebook": {
+                    "location_start": 4395,
+                    "location_end": 4416
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] The Earth-Trisolaris Movement",
+                "order": 32,
+                "ebook": {
+                    "location_start": 4427,
+                    "location_end": 4493
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Two Protons",
+                "order": 33,
+                "ebook": {
+                    "location_start": 4502,
+                    "location_end": 4611
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Operation Guzheng",
+                "order": 34,
+                "ebook": {
+                    "location_start": 4624,
+                    "location_end": 4858
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Trisolaris: The Listener",
+                "order": 35,
+                "ebook": {
+                    "location_start": 4872,
+                    "location_end": 5004
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Trisolaris: Sophon",
+                "order": 36,
+                "ebook": {
+                    "location_start": 5017,
+                    "location_end": 5416
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] Bugs",
+                "order": 37,
+                "ebook": {
+                    "location_start": 5423,
+                    "location_end": 5467
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[PART III - Sunset For Humanity] The Ruins",
+                "order": 38,
+                "ebook": {
+                    "location_start": 5475,
+                    "location_end": 5498
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            }
+        ]
+    }
 }

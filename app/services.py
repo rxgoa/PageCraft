@@ -1,9 +1,8 @@
-from typing import Optional
-from fastapi import FastAPI
 import json
 import math
+from app.models import BookModel
 
-app = FastAPI()
+path_json = "data/books.json"
 
 
 class Book:
@@ -14,6 +13,18 @@ class Book:
 
     def __getitem__(self, key):
         return self.books[key]
+
+    def create_new_book(self, bookBody: BookModel):
+        books = self.get_book_info(None)
+        current_book_isbn = bookBody.isbn
+        check_existence = books.get(current_book_isbn)
+        print(check_existence)
+        if check_existence is None or check_existence == "":
+            books[current_book_isbn] = bookBody.model_dump()
+            self.insert_book(books)
+            return {"message": "Book inserted!", "data": books}
+        else:
+            return {"message": "Book already exists in JSON file."}
 
     def estimate_reading_time(self, isbn: str, words_minute: int):
         book_info = self.get_book_info(isbn)
@@ -78,8 +89,13 @@ class Book:
         )
         return text_response
 
+    def insert_book(self, book):
+        with open(path_json, "w") as file:
+            json.dump(book, file, indent=4)
+            return
+
     def get_book_info(self, isbn):
-        if not isbn:
+        if isbn is None or isbn == "":
             book_info = self.books
             return book_info
         else:
@@ -87,38 +103,6 @@ class Book:
             return book_info
 
     def read_books_file(self):
-        with open("data/books.json") as file:
+        with open(path_json) as file:
             books_json = json.load(file)
         return books_json
-
-
-book = Book()
-
-#
-# Fast API Methods
-#
-
-
-# Get all books available in data/books.json
-# We can also filter by ISBN. /v1/api/books?isbn={{BOOK_ISBN}}
-@app.get("/v1/api/books")
-def get_books(isbn: Optional[str] = None):
-    return book.get_book_info(isbn)
-
-
-# Get Reading estimation from a Book
-@app.get("/v1/api/books/estimation-reading")
-def estimate_reading_time_wrapper(isbn: str, words_minute: int):
-    return book.estimate_reading_time(isbn, words_minute)
-
-
-# Get the most optimize place/chapter to stop reading given a time period.
-@app.get("/v1/api/books/optimal-reading")
-def optimize_time_read_wrapper(
-    isbn: str, starting_point: int, time_to_read: int, words_minute: int
-):
-    optimize_time_formatted = book.optimize_time_read(
-        isbn, starting_point, time_to_read, words_minute
-    )
-
-    return {"message": optimize_time_formatted, "status": 200}
