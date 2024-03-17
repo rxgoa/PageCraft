@@ -19,6 +19,29 @@ body {
     color: #FAF8F6;
 }
 
+.book_info {
+    max-width: 50%;
+    min-width: 50%;
+    text-wrap: inherit;
+    margin-left: 10px;
+}
+
+.book_info ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.book_image {
+    width: 40%;
+    margin-left: 64px;
+    padding: 20px;
+}
+
+.book_image img {
+    width: 100%;
+    height: auto;
+}
+
 .input-wrapper {
     width: 40vw;
     max-width: 100%;
@@ -107,7 +130,7 @@ body {
     border-radius: 2px;
     color: #FAF8F6;
     overflow-y: auto;
-
+    display: flex;
 }
 
 .floating-label-group {

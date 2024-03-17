@@ -1,0 +1,13 @@
+<div class="book_info">
+	<ul>
+		<li>Title: {{ book.title }}</li>
+		<li>Author: {{ book.author }}</li>
+		<li>Pages: {{ book.total_pages }}</li>
+		<li>Locations(eBook): {{ book.total_locations }}</li>
+		<li>eBook? {{ 'Yes' if book.is_ebook else 'No' }}</li>
+		<li>Number of Chapters: {{ book.table_contents|length }}</li>
+	</ul>
+</div>
+<div class="book_image">
+	<img src="{{ book.book_cover_image}}">
+</div>

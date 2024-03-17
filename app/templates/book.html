@@ -15,7 +15,7 @@
 				<li><a href="#home">How Long to Read?</a></li>
 				<li><a href="#about">Optimal Reading</a></li>
 				<li><a href="#services">Book List</a></li>
-				<li><a href="#contact">Find Book</a></li>
+				<li><a href="/find-book">Find Book</a></li>
 			</ul>
 		</nav>
 		<h1>PAGECRAFT v.1</h1>
@@ -23,13 +23,12 @@
 			<div class="floating-label-group">
 				<input type="text" class="form-input" id="isbn" placeholder="isbn" required />
 				<label for="isbn" class="form-label">ISBN</label>
-				<button class="input-button" hx-get="/v1/api/books?isbn=eISBN:9781466853447"
+				<button class="input-button" hx-get="/v1/api/books?isbn=eisbn:9781466853447"
 					hx-target="#box" hx-swap="innerhtml">⬇️</button>
 
 			</div>
 		</div>
 		<div id="box" class="box">
-			<% title %>
 		</div>
 	</div>
 

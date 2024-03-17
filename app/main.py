@@ -1,6 +1,6 @@
 import os
 from typing import Optional
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Header
 from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -30,8 +30,8 @@ templates = Jinja2Templates(directory="app/templates")
 book = Book()
 
 
-@app.get("/book", response_class=HTMLResponse)
-async def get_book(request: Request):
+@app.get("/find-book", response_class=HTMLResponse)
+async def get_book_view(request: Request):
     context = {"request": request}
     return templates.TemplateResponse("book.html", context)
 
@@ -42,13 +42,24 @@ async def get_book(request: Request):
 # Get all books available in data/books.json
 # We can also filter by ISBN. /v1/api/books?isbn={{BOOK_ISBN}}
 @app.get("/v1/api/books")
-def get_books(isbn: Optional[str] = None):
-    return book.get_book_info(isbn)
+def get_books(
+    request: Request,
+    isbn: Optional[str] = None,
+    hx_request: Optional[str] = Header(None),
+):
+    if hx_request:
+        print("hello")
+        book_requested = book.get_book_info(isbn)
+        context = {"request": request, "book": book_requested}
+        return templates.TemplateResponse("book_info.html", context)
+    else:
+        return book.get_book_info(isbn)
 
 
 # Get Reading estimation from a Book
 @app.get("/v1/api/books/estimation-reading")
 def estimate_reading_time_wrapper(isbn: str, words_minute: int):
+
     return book.estimate_reading_time(isbn, words_minute)
 
 
