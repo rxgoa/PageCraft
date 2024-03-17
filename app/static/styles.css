@@ -19,6 +19,30 @@ body {
     color: #FAF8F6;
 }
 
+.gold_letter {
+    color: #CFB53C !important;
+}
+
+.button {
+    width: 101%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    margin-left: -4px;
+    font-family: 'IBM', sans-serif;
+    background: #C0C0C0;
+    color: black;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    border-radius: 2px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
 .book_info {
     max-width: 50%;
     min-width: 50%;
@@ -87,7 +111,7 @@ body {
     border-bottom: 2px solid #808080;
     border-right: 2px solid #808080;
     border-radius: 2px;
-    cursor: default;
+    cursor: pointer;
     font-size: 12px;
     height: 40px;
     outline: none;
@@ -136,6 +160,7 @@ body {
 .floating-label-group {
     position: relative;
     padding-top: 15px;
+    min-height: 40px;
 
 }
 

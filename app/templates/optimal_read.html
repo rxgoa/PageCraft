@@ -6,7 +6,7 @@
 <body>
 	<div class="container">
 		{% include 'partials/_header.html' %}
-		<h1>PAGECRAFT v.1 (How Long To Read)</h1>
+		<h1>PAGECRAFT v.1 (Optimal Read)</h1>
 		<div class="input-wrapper">
 			<form id="estimateBook">
 				<div class="floating-label-group">
@@ -21,12 +21,22 @@
 					<label for="words_minute" class="form-label gold_letter">WORDS PER
 						MINUTE</label>
 				</div>
-
 				<div class="floating-label-group">
-					<button class="button" hx-get="/v1/api/books/estimation-reading"
-						hx-target="#box" hx-swap="innerhtml" hx-include="#estimateBook">How Long
-						to
-						Read?</button>
+					<input type="text" class="form-input" id="starting_point" name="starting_point"
+						placeholder="Starting Point" required />
+					<label for="Starting Point" class="form-label gold_letter">STARTING
+						POINT (location or page)</label>
+				</div>
+				<div class="floating-label-group">
+					<input type="text" class="form-input" id="time_to_read" name="time_to_read"
+						placeholder="Words per minute" required />
+					<label for="time_to_read" class="form-label gold_letter">TIME FOR READING
+						(minutes)</label>
+				</div>
+				<div class="floating-label-group">
+					<button class="button" hx-get="/v1/api/books/optimal-reading" hx-target="#box"
+						hx-swap="innerhtml" hx-include="#estimateBook">Give Me The Place To Stop
+						Reading!</button>
 				</div>
 			</form>
 		</div>
