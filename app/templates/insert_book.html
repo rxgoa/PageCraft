@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+{% include 'partials/_head.html' %}
+
+<body>
+	<div class="container">
+		{% include 'partials/_header.html' %}
+		<h1>PAGECRAFT v.1 (Insert Book)</h1>
+		<div class="input-wrapper" style="width: 60vw;">
+			<form id="estimateBook">
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="isbn" style="width: 60vw;" name="isbn"
+						placeholder="isbn" required />
+					<label for="isbn" class="form-label gold_letter">ISBN</label>
+
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="title" name="title"
+						placeholder="Title" style="width: 60vw;" required />
+					<label for="title" class="form-label gold_letter">Title</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="author" name="author"
+						placeholder="Author" style="width: 60vw;" required />
+					<label for="author" class="form-label gold_letter">Author</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="book_cover_image"
+						name="book_cover_image" style="width: 60vw;" placeholder="Book Cover"
+						required />
+					<label for="book_cover_image" class="form-label gold_letter">Book Cover</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="total_pages" name="total_pages"
+						placeholder="Total Pages" style="width: 60vw;" required />
+					<label for="total_pages" class="form-label gold_letter">Total Pages</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="total_locations"
+						name="total_locations" style="width: 60vw;"
+						placeholder="Total Locations" required />
+					<label for="total_locations" class="form-label gold_letter">Total
+						Locations</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" id="is_ebook" name="is_ebook"
+						placeholder="eBook?" style="width: 60vw;" required />
+					<label for="is_ebook" class="form-label gold_letter">Ebook?</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" style="width: 60vw;" id="word_count_aprox"
+						name="word_count_aprox" placeholder="Words Count Aprox." required />
+					<label for="word_count_aprox" class="form-label gold_letter">Word Count
+						Aprox.</label>
+				</div>
+				<div class="floating-label-group" style="width: 60vw;">
+					<input type="text" class="form-input" style="width: 60vw;" id="location_to_page"
+						name="location_to_page" placeholder="Location To Page" required />
+					<label for="location_to_page" class="form-label gold_letter">Location To Page
+						(locations/pages)</label>
+				</div>
+
+				<div class="floating-label-group">
+					<button class="button" id="chapter_book_btn">Insert new chapter +</button>
+				</div>
+				<div class="floating-label-group" hx-include="id='chapter_table'">
+					<table id="chapter_table" style="width: 100%;">
+						<thead>
+							<tr>
+								<th>Chapter Title</th>
+								<th>Order</th>
+								<th>Start(eBook)</th>
+								<th>End(Ebook)</th>
+								<th>Start(Printed)</th>
+								<th>End(Printed)</th>
+							</tr>
+						</thead>
+						<tbody id="table_body">
+
+						</tbody>
+					</table>
+				</div>
+				<div class="book_chapters" id="book_chapters">
+				</div>
+				<div class="floating-label-group" style="margin-top: 30px !important">
+					<button class="button" id="create_book_btn">Insert Book!</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<script src="https://unpkg.com/htmx.org@1.9.11"
+		integrity="sha384-0gxUXCCR8yv9FM2b+U3FDbsKthCI66oH5IA9fHppQq9DDMHuMauqq1ZHBpJxQ0J0"
+		crossorigin="anonymous"></script>
+	<script src="/static/insert_book.js"></script>
+</body>

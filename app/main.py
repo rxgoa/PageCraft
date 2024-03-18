@@ -53,6 +53,13 @@ async def optimal_read(request: Request):
     return templates.TemplateResponse("optimal_read.html", context)
 
 
+@app.get("/insert-book", response_class=HTMLResponse)
+async def insert_book(request: Request):
+    context = {"request": request}
+    return templates.TemplateResponse("insert_book.html", context)
+
+
+# ----------------------------------------------------------------------
 #
 # Fast API Methods
 #
@@ -111,5 +118,5 @@ def optimize_time_read_wrapper(
 
 # Insert new book into the JSON file
 @app.post("/v1/api/books")
-def insert_book(bookBody: BookModel):
+def create_book(bookBody: BookModel):
     return book.create_new_book(bookBody)

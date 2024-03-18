@@ -588,5 +588,486 @@
                 }
             }
         ]
+    },
+    "eisbn:978-0593654477": {
+        "title": "The Maniac",
+        "author": "Benjamin Labatut",
+        "isbn": "eisbn:978-0593654477",
+        "book_cover_image": "https://m.media-amazon.com/images/I/71LWaPy3gjL._AC_UF1000,1000_QL80_.jpg",
+        "total_pages": 368,
+        "total_locations": 3476,
+        "is_ebook": true,
+        "word_count_aprox": 92000,
+        "location_to_page": 9.37,
+        "table_contents": [
+            {
+                "title": "Paul or The Discovery of the Irrational",
+                "order": 1,
+                "ebook": {
+                    "location_start": 81,
+                    "location_end": 391
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "John or The Mad Dreams of Reason",
+                "order": 2,
+                "ebook": {
+                    "location_start": 392,
+                    "location_end": 417
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I] The Limits of Logic",
+                "order": 3,
+                "ebook": {
+                    "location_start": 418,
+                    "location_end": 418
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Eugene Wigner",
+                "order": 4,
+                "ebook": {
+                    "location_start": 420,
+                    "location_end": 509
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Margit Kann Von Neumann",
+                "order": 5,
+                "ebook": {
+                    "location_start": 520,
+                    "location_end": 529
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Nicholas Augustus Von Neumann",
+                "order": 6,
+                "ebook": {
+                    "location_start": 539,
+                    "location_end": 591
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Mariette Kovesi",
+                "order": 7,
+                "ebook": {
+                    "location_start": 603,
+                    "location_end": 655
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] George Polya",
+                "order": 8,
+                "ebook": {
+                    "location_start": 666,
+                    "location_end": 686
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Theodore Von Karman",
+                "order": 9,
+                "ebook": {
+                    "location_start": 689,
+                    "location_end": 804
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Gabor Szego",
+                "order": 10,
+                "ebook": {
+                    "location_start": 816,
+                    "location_end": 896
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part I - Limits of Logic] Eugene Wigner",
+                "order": 11,
+                "ebook": {
+                    "location_start": 907,
+                    "location_end": 1055
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II] The Delicate Balance of Terror",
+                "order": 12,
+                "ebook": {
+                    "location_start": 1058,
+                    "location_end": 1060
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Richard Feynman",
+                "order": 13,
+                "ebook": {
+                    "location_start": 1066,
+                    "location_end": 1238
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Klara Dan",
+                "order": 14,
+                "ebook": {
+                    "location_start": 1249,
+                    "location_end": 1360
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Oskar Morgenstern",
+                "order": 15,
+                "ebook": {
+                    "location_start": 1371,
+                    "location_end": 1467
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Eugene Wigner",
+                "order": 16,
+                "ebook": {
+                    "location_start": 1478,
+                    "location_end": 1529
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Julian Bigelow",
+                "order": 17,
+                "ebook": {
+                    "location_start": 1532,
+                    "location_end": 1626
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part II - The Delicate Balance of Terror] Richard Feynman: And then the world catches fire",
+                "order": 18,
+                "ebook": {
+                    "location_start": 1627,
+                    "location_end": 1734
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III] Ghosts in the Machine",
+                "order": 19,
+                "ebook": {
+                    "location_start": 1735,
+                    "location_end": 1737
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Julian Bigelow: A real mad Scientist",
+                "order": 20,
+                "ebook": {
+                    "location_start": 1739,
+                    "location_end": 1815
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Sydney Brenner: True prophet",
+                "order": 21,
+                "ebook": {
+                    "location_start": 1827,
+                    "location_end": 1881
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Nils Aall Barricelli: Cavemen created the gods",
+                "order": 22,
+                "ebook": {
+                    "location_start": 1892,
+                    "location_end": 2019
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Klara Dan: A weather war",
+                "order": 23,
+                "ebook": {
+                    "location_start": 2030,
+                    "location_end": 2199
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Eugene Wigner: A biological necessity",
+                "order": 24,
+                "ebook": {
+                    "location_start": 2202,
+                    "location_end": 2339
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Marina Von Neumann: What is one plus one?",
+                "order": 25,
+                "ebook": {
+                    "location_start": 2350,
+                    "location_end": 2452
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Vincent Ford: We heard the machines come alive",
+                "order": 26,
+                "ebook": {
+                    "location_start": 2463,
+                    "location_end": 2498
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Eugene Wigner: For progress there is no cure",
+                "order": 27,
+                "ebook": {
+                    "location_start": 2501,
+                    "location_end": 2585
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "[Part III - Ghosts in the Machine] Lee or The Delusions of Artificial Intelligence",
+                "order": 28,
+                "ebook": {
+                    "location_start": 2586,
+                    "location_end": 2588
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Prologue",
+                "order": 29,
+                "ebook": {
+                    "location_start": 2598,
+                    "location_end": 2624
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "The Strong Stone",
+                "order": 30,
+                "ebook": {
+                    "location_start": 2635,
+                    "location_end": 2715
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Brainchild",
+                "order": 31,
+                "ebook": {
+                    "location_start": 2726,
+                    "location_end": 2831
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "AlphaGo",
+                "order": 32,
+                "ebook": {
+                    "location_start": 2842,
+                    "location_end": 2949
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "A Sharp, Sudden Invasion",
+                "order": 33,
+                "ebook": {
+                    "location_start": 2960,
+                    "location_end": 3017
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "A Thing of Beauty, Not of This World",
+                "order": 34,
+                "ebook": {
+                    "location_start": 3028,
+                    "location_end": 3149
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "One of the Ten Thousand Things",
+                "order": 35,
+                "ebook": {
+                    "location_start": 3160,
+                    "location_end": 3246
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "God's Touch",
+                "order": 36,
+                "ebook": {
+                    "location_start": 3257,
+                    "location_end": 3394
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Game Over",
+                "order": 37,
+                "ebook": {
+                    "location_start": 3405,
+                    "location_end": 3446
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Calculate, Abandon Instinct",
+                "order": 38,
+                "ebook": {
+                    "location_start": 3457,
+                    "location_end": 3482
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            },
+            {
+                "title": "Epilogue - The God of Go",
+                "order": 39,
+                "ebook": {
+                    "location_start": 3494,
+                    "location_end": 3537
+                },
+                "printed": {
+                    "page_start": 0,
+                    "page_end": 0
+                }
+            }
+        ]
     }
 }

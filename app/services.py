@@ -18,11 +18,10 @@ class Book:
         books = self.get_book_info(None)
         current_book_isbn = bookBody.isbn
         check_existence = books.get(current_book_isbn)
-        print(check_existence)
         if check_existence is None or check_existence == "":
             books[current_book_isbn] = bookBody.model_dump()
             self.insert_book(books)
-            return {"message": "Book inserted!", "data": books}
+            return {"message": "Book inserted!", "data": bookBody}
         else:
             return {"message": "Book already exists in JSON file."}
 

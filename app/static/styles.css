@@ -72,6 +72,23 @@ body {
     position: relative;
 }
 
+.book_chapters {
+    font-family: 'IBM', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book_chapters .book_left {
+    max-width: 50%;
+    min-width: 50%;
+}
+
+.book_chapters .book_right {
+    max-width: 50%;
+    min-width: 50%;
+}
+
 .menu-bar {
     background-color: #15222E;
     overflow: hidden;
@@ -161,7 +178,6 @@ body {
     position: relative;
     padding-top: 15px;
     min-height: 40px;
-
 }
 
 .form-input:focus {
