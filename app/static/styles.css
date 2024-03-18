@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'IBM';
-    /* Name you'll use to refer to this font */
     src: url('fonts/WebPlus_IBM_CGA-2y.woff') format('woff'),
         url('fonts/WebPlus_IBM_CGAthin-2y.woff') format('woff');
     font-weight: normal;
